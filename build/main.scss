@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+$Cyan: hsl(180, 66%, 49%);
+$Dark-Violet: hsl(257, 27%, 26%);
+$Red: hsl(0, 87%, 67%);
+$Gray: hsl(0, 0%, 75%);
+$Grayish-Violet: hsl(257, 7%, 63%);
+$Very-Dark-Blue: hsl(255, 11%, 22%);
+$Very-Dark-Violet: hsl(260, 8%, 14%);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', arial;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  overflow-x: hidden;
+  height: 1000px;
+  padding-top: 50px;
+}
+
+// ----- navigasi -------
+navbar {
+  position: fixed;
+  top: -5px;
+  left: 0;
+  right: 0;
+  padding: 8px;
+  background-color: white;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  .title {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  .hamb {
+  }
+}
+.component {
+  width: 325px;
+  margin: auto;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ul {
+    text-decoration: none;
+  }
+}
+
+// ---- hero content ------
+.hero {
+  width: 300px;
+  margin: 4rem auto;
+  .images {
+    transform: translateX(25px);
+  }
+}
+.content-text {
+  text-align: center;
+  margin-top: 1rem;
+  //   border: 1px solid red;
+  .text-head {
+    font-weight: 700;
+    font-size: 1.7rem;
+    .satu {
+      display: block;
+    }
+    .dua {
+      margin-top: -15px;
+      display: block;
+    }
+  }
+  .text-body {
+    font-weight: 400;
+    font-size: 18px;
+    color: $Grayish-Violet;
+    margin-top: 1rem;
+  }
+  button {
+    background-color: $Cyan;
+    padding: 8px 1.5rem;
+    border-radius: 1.5rem;
+    border: none;
+    color: white;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+}
+footer {
+  margin-top: 8rem;
+  a {
+    font-size: 1.2rem;
+  }
+}

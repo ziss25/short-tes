@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", arial;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+body {
+  overflow-x: hidden;
+  height: 1000px;
+  padding-top: 50px;
+}
+
+navbar {
+  position: fixed;
+  top: -5px;
+  left: 0;
+  right: 0;
+  padding: 8px;
+  background-color: white;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+navbar .title {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.component {
+  width: 325px;
+  margin: auto;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.component ul {
+  text-decoration: none;
+}
+
+.hero {
+  width: 300px;
+  margin: 4rem auto;
+}
+.hero .images {
+  transform: translateX(25px);
+}
+
+.content-text {
+  text-align: center;
+  margin-top: 1rem;
+}
+.content-text .text-head {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+.content-text .text-head .satu {
+  display: block;
+}
+.content-text .text-head .dua {
+  margin-top: -15px;
+  display: block;
+}
+.content-text .text-body {
+  font-weight: 400;
+  font-size: 18px;
+  color: hsl(257deg, 7%, 63%);
+  margin-top: 1rem;
+}
+.content-text button {
+  background-color: hsl(180deg, 66%, 49%);
+  padding: 8px 1.5rem;
+  border-radius: 1.5rem;
+  border: none;
+  color: white;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+footer {
+  margin-top: 8rem;
+}
+footer a {
+  font-size: 1.2rem;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,16 @@
+-- url-shortening-api --- 
+---- base endpoint ---- 
+https://api.shrtco.de/v2/
+
+--- get ----
+/shorten
+params = url 
+  
+---- info -----
+/info 
+parameter = code 
+
+*overflow text
+text-overflow: ellipsis; 
+
+* copied 
